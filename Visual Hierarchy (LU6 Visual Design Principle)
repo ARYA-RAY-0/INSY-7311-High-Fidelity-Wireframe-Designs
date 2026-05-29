@@ -1,0 +1,118 @@
+<div class="min-h-screen bg-zinc-100 flex justify-center items-center p-4">
+  <!-- High-Fidelity Multi-Modal Upload Interface Shell -->
+  <!-- Structured top-to-bottom in descending operational order following image_b9eb96.png -->
+  <div class="w-[340px] h-[660px] bg-slate-50 border-[8px] border-zinc-950 rounded-[38px] shadow-2xl flex flex-col relative overflow-hidden font-sans select-none">
+    
+    <!-- Top Status Bar Simulation -->
+    <div class="w-full bg-white px-5 pt-2 pb-1.5 flex justify-between items-center border-b border-zinc-100 flex-shrink-0">
+      <span class="text-[10px] font-bold text-zinc-400 font-mono tracking-tight">09:41</span>
+      <div class="w-20 h-3 bg-zinc-950 rounded-full absolute left-1/2 transform -translate-x-1/2 top-1"></div>
+      <span class="text-[10px] font-bold text-emerald-500 font-mono">100%</span>
+    </div>
+
+    <!-- Wizard Navigation Header Bar -->
+    <div class="w-full bg-white px-4 py-2 flex justify-between items-center border-b border-zinc-100/80 flex-shrink-0">
+      <!-- Back Button Control -->
+      <button class="flex items-center space-x-1 text-zinc-500 hover:text-zinc-800 transition-all">
+        <span class="text-xs font-bold">←</span>
+        <span class="text-[10px] font-bold uppercase font-mono tracking-wider">Back</span>
+      </button>
+      <!-- Step Indicator Tracker -->
+      <span class="text-[9px] font-bold font-mono text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full border border-indigo-100 uppercase tracking-wider">
+        Wizard: Step 1 of 2
+      </span>
+    </div>
+
+    <!-- Core Scrollable Hierarchy Workspace Container -->
+    <div class="p-4 flex flex-col flex-1 overflow-y-auto space-y-5">
+      
+      <!-- LU6 Principle Meta Alert Ribbon (Optional Reference Frame from image_b9eb96.png) -->
+      <div class="bg-indigo-50/40 border border-dashed border-indigo-200 rounded-xl p-3 text-left">
+        <span class="text-[8px] font-black font-mono text-indigo-700 tracking-widest uppercase block mb-0.5">Visual Hierarchy Rule Matrix</span>
+        <p class="text-[9.5px] leading-relaxed text-zinc-500 font-medium">
+          Layout elements are structured top-to-bottom in descending operational order using distinct size variances to guide user attention naturally.
+        </p>
+      </div>
+
+      <!-- TIER 1: HIGH-LEVEL HIERARCHY (Page Scope Title) -->
+      <!-- Employs the largest typeface profile with a structural baseline accent to anchor initial focus -->
+      <div class="flex flex-col space-y-1 bg-transparent px-0.5">
+        <h1 class="text-xl font-black tracking-tight text-zinc-900 uppercase font-mono">
+          Upload Interface
+        </h1>
+        <!-- Thick Tracking Bar Accent Line -->
+        <div class="w-12 h-1 bg-zinc-950 rounded-full"></div>
+      </div>
+
+      <!-- Structural Step Label -->
+      <div class="pt-1 px-0.5 flex flex-col space-y-3">
+        <span class="text-[9px] font-black tracking-widest text-zinc-400 uppercase font-mono block">
+          Select Source Document:
+        </span>
+
+        <!-- TIER 2: INTERMEDIATE HIERARCHY (Primary Drag-and-Drop Action Field) -->
+        <!-- Formed as the primary interactive block element with heavy borders and centralized placement -->
+        <div class="w-full bg-white border-2 border-zinc-900 border-dashed rounded-xl p-6 shadow-xs flex flex-col items-center justify-center text-center hover:bg-zinc-50/50 transition-all group cursor-pointer">
+          <!-- Central Interactive Addition Grid Control -->
+          <div class="w-8 h-8 bg-zinc-100 border border-zinc-300 rounded-lg flex items-center justify-center text-zinc-600 font-bold group-hover:scale-105 group-hover:border-zinc-500 transition-all shadow-3xs mb-3">
+            <span class="text-sm font-black">+</span>
+          </div>
+          <!-- Clean Production Text -->
+          <span class="text-xs font-extrabold text-zinc-900 tracking-wide uppercase font-mono">
+            Choose File / Drag PDF
+          </span>
+          <span class="text-[8.5px] text-zinc-400 font-medium font-sans mt-1">
+            Supports local desktop repository ingestion
+          </span>
+        </div>
+
+        <!-- Secondary Multi-Modal Input Link Option -->
+        <div class="w-full bg-white border border-zinc-200 rounded-xl p-3 shadow-3xs flex justify-between items-center hover:border-zinc-300 transition-all cursor-pointer">
+          <div class="flex items-center space-x-2">
+            <div class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></div>
+            <span class="text-[10px] font-bold text-zinc-700 uppercase tracking-wide font-mono">Link Cloud Repository</span>
+          </div>
+          <span class="text-[9px] font-mono font-black text-zinc-300">→</span>
+        </div>
+      </div>
+
+      <!-- TIER 3: BASELINE HIERARCHY (Informational Micro-copy Container) -->
+      <!-- Intentionally downscaled and nested inside a muted block to prevent layout tracking pollution -->
+      <div class="bg-zinc-100/80 border border-zinc-200 rounded-xl p-3 flex flex-col space-y-1.5">
+        <span class="text-[8px] font-black tracking-wider text-zinc-500 uppercase font-mono">
+          System Metadata Limitations
+        </span>
+        <p class="text-[9.5px] leading-relaxed text-zinc-500 font-medium">
+          Supported file matrix: PDF format structures exclusively. Total payload depth must fall within a 50MB ceiling layer. Encrypted streams will fail ingest parameters.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Standardized Persistent Bottom Tab Bar Anchor Layer -->
+    <!-- Preserves coordinates and identifiers directly from image_b9eb96.png -->
+    <div class="w-full bg-white border-t border-zinc-200 px-6 py-2.5 flex justify-between items-center mt-auto z-50 flex-shrink-0 shadow-lg">
+      <!-- Home Tab -->
+      <div class="flex flex-col items-center space-y-0.5 text-zinc-400 cursor-pointer hover:text-zinc-600">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+        <span class="text-[8px] font-bold tracking-wide uppercase font-mono">Home</span>
+      </div>
+      <!-- Active Upload Tab -->
+      <div class="flex flex-col items-center space-y-0.5 text-zinc-950 cursor-pointer">
+        <svg class="w-4 h-4 text-zinc-950" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+        <span class="text-[8px] font-black tracking-wide uppercase font-mono">Upload</span>
+      </div>
+      <!-- Settings Tab -->
+      <div class="flex flex-col items-center space-y-0.5 text-zinc-400 cursor-pointer hover:text-zinc-600">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.756.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/></svg>
+        <span class="text-[8px] font-bold tracking-wide uppercase font-mono">Settings</span>
+      </div>
+    </div>
+
+    <!-- Operating System Safe Area Home Bar -->
+    <div class="w-full bg-white pb-1.5 flex justify-center flex-shrink-0">
+      <div class="w-24 h-1 bg-zinc-800 rounded-full"></div>
+    </div>
+
+  </div>
+</div>
