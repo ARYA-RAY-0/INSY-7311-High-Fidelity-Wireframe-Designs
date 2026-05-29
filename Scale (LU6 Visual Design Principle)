@@ -1,0 +1,155 @@
+<div class="min-h-screen bg-zinc-100 flex justify-center items-center p-4">
+  <!-- High-Fidelity App Shell Framework (Figure 12: Scale Principle Implementation) -->
+  <!-- Form factor and structural base mapped directly from image_c71a02.png -->
+  <div class="w-[340px] h-[660px] bg-slate-50 border-[8px] border-zinc-950 rounded-[38px] shadow-2xl flex flex-col relative overflow-hidden font-sans select-none">
+    
+    <!-- Top Status Bar Simulation -->
+    <div class="w-full bg-white px-5 pt-2 pb-1.5 flex justify-between items-center border-b border-zinc-100 flex-shrink-0">
+      <span class="text-[10px] font-bold text-zinc-400 font-mono tracking-tight">09:41</span>
+      <div class="w-20 h-3 bg-zinc-950 rounded-full absolute left-1/2 transform -translate-x-1/2 top-1"></div>
+      <span class="text-[10px] font-bold text-emerald-500 font-mono">100%</span>
+    </div>
+
+    <!-- App Header & User Greeting Layer -->
+    <div class="px-5 pt-4 pb-3 flex flex-col space-y-0.5 bg-white border-b border-zinc-100 flex-shrink-0">
+      <div class="flex justify-between items-center">
+        <!-- High-Fi Rebrand Logo -->
+        <div class="flex items-center space-x-1.5">
+          <div class="w-5 h-5 bg-indigo-600 rounded flex items-center justify-center text-white font-black text-xs font-mono shadow-xs">L</div>
+          <span class="text-xs font-black tracking-wider text-zinc-900 font-mono uppercase">Lexis.AI</span>
+        </div>
+        <span class="text-[9px] font-mono bg-zinc-100 text-zinc-500 px-2 py-0.5 rounded border border-zinc-200">v1.0.4</span>
+      </div>
+      <span class="text-[10px] text-zinc-400 font-medium pt-1">Welcome back, <span class="font-bold text-zinc-700">Arya Rai</span></span>
+    </div>
+
+    <!-- Core Scrollable UI Workspace Layout -->
+    <div class="p-4 flex flex-col flex-1 overflow-y-auto space-y-4">
+      
+      <!-- 1. PRIMARY SCALE EMPHASIS (MAX TIER): System Intercept Alert Box -->
+      <!-- Designed as the single largest structural block on the vertical axis to enforce visual dominance -->
+      <div class="bg-white border-2 border-amber-500 rounded-2xl p-4 shadow-sm flex flex-col space-y-3 relative overflow-hidden">
+        
+        <!-- Top Inline Warning Ribbon -->
+        <div class="flex items-center space-x-2 pb-1.5 border-b border-zinc-100">
+          <div class="w-5 h-5 bg-amber-50 border border-amber-300 text-amber-600 rounded-md flex items-center justify-center text-[11px] font-black font-mono">
+            !
+          </div>
+          <span class="text-[9px] font-black tracking-widest uppercase text-amber-800 font-mono">Inherent Risk Intercept</span>
+        </div>
+
+        <!-- [MAX TIER] Strategic Copy Block -->
+        <div class="bg-amber-50/50 border border-dashed border-amber-200 p-2.5 rounded-xl">
+          <span class="text-[7.5px] font-black font-mono text-amber-700 tracking-wider uppercase block mb-0.5">Scale Priority: Max Tier</span>
+          <p class="text-[10px] leading-relaxed text-zinc-600 font-medium">
+            This bounding frame is explicitly drafted as the largest structural block on the grid to enforce immediate visual processing.
+          </p>
+        </div>
+
+        <!-- Core Telemetry Context Message -->
+        <div class="bg-zinc-900 text-zinc-100 rounded-xl p-2.5 border border-zinc-800 shadow-inner">
+          <p class="text-[10.5px] leading-normal font-semibold tracking-tight">
+            <span class="text-amber-400 font-black">Error Prevented:</span> Scanned PDF document detected. An automated OCR data parsing layer is required before machine learning distillation can execute safely.
+          </p>
+        </div>
+
+        <!-- Resolution Call-to-Actions inside primary block -->
+        <div class="flex space-x-2 pt-0.5">
+          <button class="flex-1 bg-amber-600 hover:bg-amber-500 text-white font-black text-[9px] py-2 text-center rounded-lg tracking-wide uppercase transition-all shadow-xs">
+            Initialize OCR Engine
+          </button>
+          <button class="px-3 bg-zinc-50 hover:bg-zinc-100 border border-zinc-200 text-zinc-500 font-bold text-[9px] py-2 text-center rounded-lg tracking-wide uppercase transition-all">
+            Bypass
+          </button>
+        </div>
+      </div>
+
+      <!-- 2. SECONDARY SCALE CONTROLS (INTERMEDIATE TIER): Workflow Activation Hub -->
+      <!-- Employs a medium, secondary scale profile to create a logical order of operations -->
+      <div class="bg-white border border-zinc-200 rounded-xl p-3.5 shadow-2xs flex flex-col space-y-2 text-center">
+        <div class="flex items-center justify-between px-0.5">
+          <span class="text-[7.5px] font-mono tracking-widest text-zinc-400 uppercase font-bold">Scale Profile: Intermediate</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-zinc-300"></span>
+        </div>
+        
+        <!-- Primary Action Interactive Path -->
+        <button class="w-full bg-zinc-950 text-white font-black text-xs py-3 rounded-lg shadow-md hover:bg-indigo-600 active:scale-[0.99] transition-all tracking-wider uppercase border-b-2 border-zinc-800">
+          Start New Distillation
+        </button>
+        
+        <p class="text-[8px] text-zinc-400 font-medium font-mono tracking-tight">
+          Launches Sequential PDF Processing Wizard
+        </p>
+      </div>
+
+      <!-- 3. TERTIARY BASELINE SCALE (MIN SCALE): Historical Repository Feed -->
+      <!-- Restricted to the smallest, uniform scale profile to nest non-urgent data at the base -->
+      <div class="flex flex-col space-y-2">
+        <div class="flex justify-between items-center px-1">
+          <span class="text-[9px] font-bold tracking-wider text-zinc-400 uppercase font-mono">Recent Papers</span>
+          <span class="text-[7.5px] font-mono text-zinc-300 uppercase tracking-wider">Scale: Min</span>
+        </div>
+        
+        <!-- History Feed Items -->
+        <div class="space-y-1.5">
+          <div class="bg-white border border-zinc-200/80 rounded-xl p-2.5 flex items-center justify-between shadow-3xs hover:border-zinc-300 transition-all">
+            <div class="flex items-center space-x-3 flex-1 min-w-0">
+              <!-- Mini Scale Document Thumbnail -->
+              <div class="w-7 h-9 border border-zinc-300 bg-zinc-50 rounded flex flex-col items-center justify-center flex-shrink-0 relative overflow-hidden">
+                <div class="absolute top-0 inset-x-0 h-0.5 bg-indigo-500"></div>
+                <span class="text-[7.5px] font-black font-mono text-zinc-400">DOC</span>
+              </div>
+              <!-- Simulated Document Metadata Lines -->
+              <div class="space-y-1 flex-1 min-w-0">
+                <div class="h-2 bg-zinc-700 rounded w-10/12"></div>
+                <div class="h-1.5 bg-zinc-200 rounded w-4/12"></div>
+              </div>
+            </div>
+            <span class="text-[10px] font-mono font-bold text-zinc-300 pl-2">→</span>
+          </div>
+
+          <div class="bg-white border border-zinc-200/80 rounded-xl p-2.5 flex items-center justify-between shadow-3xs opacity-75">
+            <div class="flex items-center space-x-3 flex-1 min-w-0">
+              <div class="w-7 h-9 border border-zinc-300 bg-zinc-50 rounded flex flex-col items-center justify-center flex-shrink-0 relative overflow-hidden">
+                <div class="absolute top-0 inset-x-0 h-0.5 bg-emerald-500"></div>
+                <span class="text-[7.5px] font-black font-mono text-zinc-400">DOC</span>
+              </div>
+              <div class="space-y-1 flex-1 min-w-0">
+                <div class="h-2 bg-zinc-400 rounded w-8/12"></div>
+                <div class="h-1.5 bg-zinc-200 rounded w-3/12"></div>
+              </div>
+            </div>
+            <span class="text-[10px] font-mono font-bold text-zinc-300 pl-2">→</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Standardized Persistent Bottom Tab Bar Anchor Layer -->
+    <!-- Preserving the structural tabs defined at the base of image_c71a02.png -->
+    <div class="w-full bg-white border-t border-zinc-200 px-6 py-2.5 flex justify-between items-center mt-auto z-50 flex-shrink-0 shadow-lg">
+      <!-- Active Home Tab -->
+      <div class="flex flex-col items-center space-y-0.5 text-indigo-600 cursor-pointer">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>
+        <span class="text-[8px] font-black tracking-wide uppercase font-mono">Home</span>
+      </div>
+      <!-- Library Tab -->
+      <div class="flex flex-col items-center space-y-0.5 text-zinc-400 cursor-pointer hover:text-zinc-600">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293H20"/></svg>
+        <span class="text-[8px] font-bold tracking-wide uppercase font-mono">Library</span>
+      </div>
+      <!-- Settings Tab -->
+      <div class="flex flex-col items-center space-y-0.5 text-zinc-400 cursor-pointer hover:text-zinc-600">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.756.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/></svg>
+        <span class="text-[8px] font-bold tracking-wide uppercase font-mono">Settings</span>
+      </div>
+    </div>
+
+    <!-- Operating System Safe Area Home Bar -->
+    <div class="w-full bg-white pb-1.5 flex justify-center flex-shrink-0">
+      <div class="w-24 h-1 bg-zinc-800 rounded-full"></div>
+    </div>
+
+  </div>
+</div>
